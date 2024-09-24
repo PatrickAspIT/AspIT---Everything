@@ -1,0 +1,47 @@
+/* Der er 3 måder at selecte på i CSS */
+/* Direkte på HTML tags: feks. body {} */
+/* På en div med en class: gøres med punktum .keso { */
+/*  På en div med et ID_ gøres med # dvs: #keso2 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+figure{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+main {
+    min-height: 100vh;
+    background-color: burlywood;
+    width: 800px;
+    background-color: hotpink;
+}
+
+h1 {
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin 0 auto
+}

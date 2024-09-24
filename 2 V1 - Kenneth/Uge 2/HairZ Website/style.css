@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Changa+One&family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ededed;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 40px;
+    background-color: #4c8f96;
+}
+
+header > div > h1, a {
+    color: white;  
+    text-decoration: none;
+    display: inline;
+}
+
+header > div > h1 {
+    padding: 30px;
+    margin-bottom: -20px;
+    background-color: #20253d;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 100;
+}
+
+header > div > nav > a {
+    padding: 10px;
+    font-size: 1em;
+    margin-left: 20px;
+    background-color: #1b2130;
+    border-radius: 4px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 100;
+}
+
+header > div > nav > a:hover {
+    background-color: #386A70;
+}
+
+/* FLEX */
+
+.flex {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* MAIN */
+
+main {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* SECTION ONE */
+
+#sectionOne {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5fb3bd;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+#sectionOne > h2 {
+    font-size: 3em;
+    font-family: 'Changa One', cursive;
+    font-weight: 100;
+}
+
+/* SECTION TWO */
+
+#sectionTwo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#sectionTwo > div {
+    width: 23%;
+}
+
+#sectionTwo > div > img {
+    width: calc(100% - 8px);
+    box-shadow: 0px 7px 10px;
+}
+
+#sectionTwo > div > h3 {
+    margin-top: 20px;
+}
+
+/* BORDER + COLOR CLASS */
+
+.borderColor {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #5fb3bd;
+    border-radius: 4px;
+}
+
+/* SECTION THREE */
+
+#sectionThree {
+    display: flex;
+    align-items: stretch;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#sectionThree p {
+    margin: 10px;
+}
+
+.secthreeTitle {
+    background-color: black;
+    color: white;
+    display: initial;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.boxFlex {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.boxFlex > h3 {
+    margin-left: 20px;
+}
+
+#firstBox {
+    background-color: white;
+    width: 48%;
+}
+
+#sectionThree h3 {
+    display: inline;
+}
+
+#doubleBox {
+    display: flex;
+    width: 48%;
+    flex-wrap: wrap;
+}
+
+#doubleBox1 {
+    background-color: #4c8f96;
+    color: white;
+}
+
+#doubleBox1 > p {
+    margin-top: 50px;
+}
+
+#doubleBox2 {
+    background-color: #4c8f96;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+}
+
+#doubleBox2 > h3 {
+    margin-top: 10%;
+}
+
+#doubleBox2 > img {
+    margin-top: -10px;
+    margin-bottom: -8px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #4c8f96;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer > p {
+    margin-left: 40%;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+.overcard {
+    margin-right: 20%;
+    background-color: #387a82; 
+    padding: 0.7em;
+ }
+
+.card {
+    position: relative;
+    display: inline-block;
+    padding: 1em;
+}
+
+.card > .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 1em;
+ }
+ 
+ .card:hover > .img-top {
+    display: inline;
+ }

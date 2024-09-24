@@ -1,0 +1,38 @@
+/* Baggrund i header/navigation og footer */
+header, nav, footer {
+    background-color: #b30000;
+    color: #FFFFFF; /* Hvid skriftfarve i disse områder for kontrast */
+}
+
+/* Hoverfarve, når man holder musen henover et menupunkt i navigationslinjen */
+nav a:hover {
+    background-color: #FF6600;
+    color: #FFFFFF; /* Hvid skriftfarve ved hover */
+}
+
+nav a {
+    text-decoration: none;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FBFBFF;
+}
+
+/* Skriftfarve på sitet */
+p, h1, h2, h3, h4, h5, h6 {
+    color: #FBFBFF;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* CTA-farve / kontrastfarve / stopperfarve */
+.cta-button {
+    background-color: #FF3333;
+    color: #FFFFFF; /* Hvid skriftfarve på knappen */
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
