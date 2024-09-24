@@ -1,0 +1,14 @@
+1. Hvad er APIPA? Find svaret og opstil en øvelse med virtuelle maskiner, hvor du demonstrerer APIPA
+
+Automatisk Privat IP-Adressering (APIPA). Konfigurerer DHCP-klienter automatisk en IP-adresse og undernetmaske, når en DHCP-server ikke er tilgængelig.
+IP-adresse i intervallet 169.254.1.0 til 169.254.254.255.
+Undernetmasken angives automatisk som 255.255.0.0
+Gatewayadressen indstilles til 0.0.0.0
+
+2. Find en router. Nulstil den, Kontrollér for opdateringer til firmware. Slå DHCP-server fra. Tilslut router mellem din PC og Cam pus Vejle-net. Hvordan skal routeren tilsluttes for at det virker?
+
+Det virker fint. Kunne komme på internettet.
+
+3. Tag udgangspunkt i routeren fra opgave 2. Tænd DHCP-serveren igen. Placer din router mellem din PC og Campus Vejlenet. Kontrollér om andre kan pinge din PC. Hvad kan du gøre for at gøre dette muligt?
+
+Skal være på routeren for at kunne pinge PC'en, ellers kan den ikke pinge den.
