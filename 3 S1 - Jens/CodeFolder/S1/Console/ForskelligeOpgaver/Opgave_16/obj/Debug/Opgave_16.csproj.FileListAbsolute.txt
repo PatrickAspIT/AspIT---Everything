@@ -1,0 +1,10 @@
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\bin\Debug\Opgave_16.exe.config
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\bin\Debug\Opgave_16.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\bin\Debug\Opgave_16.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\bin\Debug\CarHandler.dll
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\bin\Debug\CarHandler.xml
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\obj\Debug\Opgave_16.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\obj\Debug\Opgave_16.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\obj\Debug\Opgave_16.csproj.CopyComplete
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\obj\Debug\Opgave_16.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_16\obj\Debug\Opgave_16.pdb

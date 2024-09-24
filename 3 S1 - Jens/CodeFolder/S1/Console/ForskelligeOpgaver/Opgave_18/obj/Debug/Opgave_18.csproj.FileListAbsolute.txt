@@ -1,0 +1,6 @@
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_18\bin\Debug\Opgave_18.exe.config
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_18\bin\Debug\Opgave_18.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_18\bin\Debug\Opgave_18.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_18\obj\Debug\Opgave_18.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_18\obj\Debug\Opgave_18.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_18\obj\Debug\Opgave_18.pdb

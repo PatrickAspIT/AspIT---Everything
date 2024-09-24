@@ -1,0 +1,4 @@
+Dette bliver skrevet på en linje.. og det her fortsætter på samme linje.. det her står på samme linje, men afsluttes med nyt linjeskift
+Forskellen på Write og WriteLine er altså om den bliver afsluttet med nyt linjeskift eller ej
+1
+2

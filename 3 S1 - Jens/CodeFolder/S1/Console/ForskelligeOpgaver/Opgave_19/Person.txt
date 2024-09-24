@@ -1,0 +1,6 @@
+﻿Karsten,Johansen,25
+Karla,Søgaard,19
+Niels,Eriksen,56
+Hans,Bodnemand,40
+Liv,Dødsen,29
+Ea,Labrasen,34
