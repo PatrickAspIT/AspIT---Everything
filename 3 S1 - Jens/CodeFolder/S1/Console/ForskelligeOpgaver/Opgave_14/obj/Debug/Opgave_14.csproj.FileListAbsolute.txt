@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_14\bin\Debug\Opgave_14.exe.config
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_14\bin\Debug\Opgave_14.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_14\bin\Debug\Opgave_14.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_14\obj\Debug\Opgave_14.csprojAssemblyReference.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_14\obj\Debug\Opgave_14.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_14\obj\Debug\Opgave_14.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_14\obj\Debug\Opgave_14.pdb

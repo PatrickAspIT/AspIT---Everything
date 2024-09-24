@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_11\bin\Debug\Opgave_11.exe.config
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_11\bin\Debug\Opgave_11.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_11\bin\Debug\Opgave_11.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_11\obj\Debug\Opgave_11.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_11\obj\Debug\Opgave_11.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_11\obj\Debug\Opgave_11.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_11\obj\Debug\Opgave_11.csprojAssemblyReference.cache
