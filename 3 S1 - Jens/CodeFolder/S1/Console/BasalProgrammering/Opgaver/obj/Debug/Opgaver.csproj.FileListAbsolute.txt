@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\Console\BasalProgrammering\Opgaver\bin\Debug\Opgaver.exe.config
+C:\CodeFolder\S1\Console\BasalProgrammering\Opgaver\bin\Debug\Opgaver.exe
+C:\CodeFolder\S1\Console\BasalProgrammering\Opgaver\bin\Debug\Opgaver.pdb
+C:\CodeFolder\S1\Console\BasalProgrammering\Opgaver\obj\Debug\Opgaver.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\BasalProgrammering\Opgaver\obj\Debug\Opgaver.exe
+C:\CodeFolder\S1\Console\BasalProgrammering\Opgaver\obj\Debug\Opgaver.pdb
+C:\CodeFolder\S1\Console\BasalProgrammering\Opgaver\obj\Debug\Opgaver.csprojAssemblyReference.cache

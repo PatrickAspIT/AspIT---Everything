@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\Console\BasalProgrammering\Klasser_i_C_sharp\bin\Debug\Klasser_i_C_sharp.exe.config
+C:\CodeFolder\S1\Console\BasalProgrammering\Klasser_i_C_sharp\bin\Debug\Klasser_i_C_sharp.exe
+C:\CodeFolder\S1\Console\BasalProgrammering\Klasser_i_C_sharp\bin\Debug\Klasser_i_C_sharp.pdb
+C:\CodeFolder\S1\Console\BasalProgrammering\Klasser_i_C_sharp\obj\Debug\Klasser_i_C_sharp.csprojAssemblyReference.cache
+C:\CodeFolder\S1\Console\BasalProgrammering\Klasser_i_C_sharp\obj\Debug\Klasser_i_C_sharp.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\BasalProgrammering\Klasser_i_C_sharp\obj\Debug\Klasser_i_C_sharp.exe
+C:\CodeFolder\S1\Console\BasalProgrammering\Klasser_i_C_sharp\obj\Debug\Klasser_i_C_sharp.pdb
