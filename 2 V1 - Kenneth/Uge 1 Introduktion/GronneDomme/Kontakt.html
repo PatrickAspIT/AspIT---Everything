@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt os</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- NAV IS USED FOR LINKS TO ALL PAGES -->
+
+    <nav>
+    <a href="index.html">Forside</a>
+    <a href="boennebluelake.html">Bønne - Blue Lake</a>
+    <a href="basilikum.html">Basilikum - Storbladet</a>
+    <a href="aertalderman.html">Ært - Alderman</a>
+    <a href="Kontakt.html">Kontakt</a>
+    </nav>
+        
+    <!-- MAIN FOR MOST INFORMATION -->
+
+    <h1>Kontakt os</h1>
+
+    <form action="Kontaktlanding.html" method="get">
+        <div>
+            <label for="navn">Navn:</label>
+            <input type="text" id="navn" name="navn" required>
+        </div>
+    
+        <div>
+            <label for="email">E-mail adresse:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+    
+        <div>
+            <label for="besked">Besked:</label>
+            <textarea id="besked" name="besked" placeholder="Skriv din besked her"></textarea>
+        </div>
+    
+        <div>
+            <label for="nyPlanteCheckbox">Ny plante til databasen:</label>
+        </div>
+        <input type="checkbox" id="nyPlanteCheckbox" name="nyPlanteCheckbox" class="checkboxReveal">
+        
+        <!-- HIDDEN  -->
+
+        <div id="skjulteFelter">
+            <div>
+                <label for="danskNavn">Plantens danske navn:</label>
+                <input type="text" id="danskNavn" name="danskNavn">
+            </div>
+        
+            <div>
+                <label for="variant">Plantens variant:</label>
+                <input type="text" id="variant" name="variant">
+            </div>
+        
+            <div>
+                <label for="botaniskNavn">Plantens botaniske navn:</label>
+                <input type="text" id="botaniskNavn" name="botaniskNavn">
+            </div>
+        
+            <div>
+                <label for="planteType">Plantens type:</label>
+                <input type="text" id="planteType" name="planteType">
+            </div>
+        
+            <div>
+                <label for="planteHoje">Plantens højde:</label>
+                <input type="number" id="planteHoje" name="planteHoje" min="1" max="9999">
+                <p>cm</p>
+            </div>
+        
+            <div>
+                <label for="planteRaekkeafstand">Plantens rækkeafstand:</label>
+                <input type="number" id="planteRaekkeafstand" name="planteRaekkeafstand" min="1" max="9999">
+                <p>cm</p>
+            </div>
+        
+            <div>
+                <label for="planteSaadybde">Plantens sådybde:</label>
+                <input type="number" id="planteSaadybde" name="planteSaadybde" min="1" max="9999">
+                <p>cm</p>
+            </div>
+        
+            <div>
+                <label for="lysforhold">Plantens lysforhold:</label>
+                <select id="lysforhold" name="lysforhold">
+                    <option value="solrigt">Solrigt</option>
+                    <option value="skyggefuldt">Skyggefuldt</option>
+                    <option value="delvist-skyggefuldt">Delvist skyggefuldt</option>
+                </select>
+            </div>
+        
+            <div>
+                <label for="forspiresI">Planten forspires i:</label>
+                <select id="forspiresI" name="forspiresI" multiple size="12">
+                    <option value="Januar">Januar</option>
+                    <option value="Februar">Februar</option>
+                    <option value="Marts">Marts</option>
+                    <option value="April">April</option>
+                    <option value="Maj">Maj</option>
+                    <option value="Juni">Juni</option>
+                    <option value="Juli">Juli</option>
+                    <option value="August">August</option>
+                    <option value="Semptember">Semtember</option>
+                    <option value="Oktober">Oktober</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+        
+            <div>
+                <label for="udplantesI">Planten udplantes i:</label>
+                <select id="udplantesI" name="udplantesI" multiple size="12">
+                    <option value="Januar">Januar</option>
+                    <option value="Februar">Februar</option>
+                    <option value="Marts">Marts</option>
+                    <option value="April">April</option>
+                    <option value="Maj">Maj</option>
+                    <option value="Juni">Juni</option>
+                    <option value="Juli">Juli</option>
+                    <option value="August">August</option>
+                    <option value="Semptember">Semtember</option>
+                    <option value="Oktober">Oktober</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+        
+            <div>
+                <label for="spirerEfter">Planten spirer efter ca.:</label>
+                <input type="number" id="spirerEfter" name="spirerEfter" min="1" max="9999">
+                <p>dag(e)</p>
+            </div>
+        
+            <div>
+                <label for="klarTilHøst">Planten er klar til høst efter ca.:</label>
+                <input type="number" id="klarTilHøst" name="klarTilHøst" min="1" max="9999">
+                <p>dag(e)</p>
+            </div>
+        
+            <div>
+                <label for="planteBeskrivelse">Plantebeskrivelse:</label>
+                <textarea id="planteBeskrivelse" name="planteBeskrivelse" placeholder="Skriv en beskrivelse af planten her"></textarea>
+            </div>
+        
+            <div>
+                <input type="submit" value="Indsend">
+            </div>
+        </div>
+    </form>
+
+    <!-- FOOTER FOR SIMPLE TEXT -->
+
+    <footer>
+        <p>© Grønne Drømme 2023</p>
+    </footer>
+
+
+    <!-- <script>
+        // Hent referencer til elementer
+        var nyPlanteCheckbox = document.getElementById("nyPlanteCheckbox");
+        var skjulteFelter = document.getElementById("skjulteFelter");
+    
+     
+    
+        // Lyt efter ændringer i checkboksen
+        nyPlanteCheckbox.addEventListener("change", function () {
+            // Hvis checkboksen er markeret, vis de skjulte felter; ellers skjul dem
+            if (nyPlanteCheckbox.checked) {
+                skjulteFelter.style.display = "block";
+            } else {
+                skjulteFelter.style.display = "none";
+            }
+        });
+    </script> -->
+</body>
+</html>

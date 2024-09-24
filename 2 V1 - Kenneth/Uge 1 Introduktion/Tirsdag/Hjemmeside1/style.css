@@ -1,0 +1,41 @@
+/* SELECTORS to HTML TAGSS is written directly as they are */
+
+body {
+    background-color: greenyellow;
+}
+
+html {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: aqua;
+}
+
+h1 {
+    background-color: blanchedalmond;
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+/* SELECTORS to CLASSES is written with a period "." */
+/* CLASSES kan be used as many times as you want */
+
+.Chris {
+    background-color: tomato;
+    font-size: 30px;
+}
+
+.Simon {
+    background-color: white;
+    font-size: 50px;
+}
+
+/* SELECTORS with an ID is written with a hastag "#" */
+/* IDs are unique and can only be used once */
+
+#Katte {
+    background-color: cadetblue;
+}
