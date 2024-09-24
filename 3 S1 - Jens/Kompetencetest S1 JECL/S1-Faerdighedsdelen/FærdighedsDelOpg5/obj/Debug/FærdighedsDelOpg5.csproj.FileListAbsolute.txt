@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.exe.config
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.exe
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.pdb
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.exe
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.pdb

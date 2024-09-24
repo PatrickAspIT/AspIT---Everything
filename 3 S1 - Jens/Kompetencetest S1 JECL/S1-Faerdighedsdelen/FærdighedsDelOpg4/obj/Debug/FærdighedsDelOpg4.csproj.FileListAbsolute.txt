@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg4\bin\Debug\FærdighedsDelOpg4.exe.config
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg4\bin\Debug\FærdighedsDelOpg4.exe
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg4\bin\Debug\FærdighedsDelOpg4.pdb
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg4\obj\Debug\FærdighedsDelOpg4.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg4\obj\Debug\FærdighedsDelOpg4.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg4\obj\Debug\FærdighedsDelOpg4.exe
+C:\CodeFolder\S1\S1-Faerdighedsdelen\FærdighedsDelOpg4\obj\Debug\FærdighedsDelOpg4.pdb

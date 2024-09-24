@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\S1-Kompetencedelen\MovieApp\bin\Debug\MovieApp.exe.config
+C:\CodeFolder\S1\S1-Kompetencedelen\MovieApp\bin\Debug\MovieApp.exe
+C:\CodeFolder\S1\S1-Kompetencedelen\MovieApp\bin\Debug\MovieApp.pdb
+C:\CodeFolder\S1\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.exe
+C:\CodeFolder\S1\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.pdb
