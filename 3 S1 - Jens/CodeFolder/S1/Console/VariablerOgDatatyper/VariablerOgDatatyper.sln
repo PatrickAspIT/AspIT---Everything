@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave_1", "Opgave_1\Opgave_1.csproj", "{65C34C4F-55D2-405A-9719-F606E979FD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave_2", "Opgave_2\Opgave_2.csproj", "{6081DE1B-7DCF-4189-A472-442430FD2259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave_3", "Opgave_3\Opgave_3.csproj", "{30901FC6-345B-4E5A-A6AE-DD4CDC1A5A56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C34C4F-55D2-405A-9719-F606E979FD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C34C4F-55D2-405A-9719-F606E979FD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C34C4F-55D2-405A-9719-F606E979FD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C34C4F-55D2-405A-9719-F606E979FD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6081DE1B-7DCF-4189-A472-442430FD2259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6081DE1B-7DCF-4189-A472-442430FD2259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6081DE1B-7DCF-4189-A472-442430FD2259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6081DE1B-7DCF-4189-A472-442430FD2259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30901FC6-345B-4E5A-A6AE-DD4CDC1A5A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30901FC6-345B-4E5A-A6AE-DD4CDC1A5A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30901FC6-345B-4E5A-A6AE-DD4CDC1A5A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30901FC6-345B-4E5A-A6AE-DD4CDC1A5A56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6067658C-BEF1-4AFF-9454-A793D8BDCCDD}
+	EndGlobalSection
+EndGlobal

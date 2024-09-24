@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\Console\IntroTilCsOgVs\EX01HelloWorld\bin\Debug\EX01HelloWorld.exe.config
+C:\CodeFolder\S1\Console\IntroTilCsOgVs\EX01HelloWorld\bin\Debug\EX01HelloWorld.exe
+C:\CodeFolder\S1\Console\IntroTilCsOgVs\EX01HelloWorld\bin\Debug\EX01HelloWorld.pdb
+C:\CodeFolder\S1\Console\IntroTilCsOgVs\EX01HelloWorld\obj\Debug\EX01HelloWorld.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\Console\IntroTilCsOgVs\EX01HelloWorld\obj\Debug\EX01HelloWorld.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\IntroTilCsOgVs\EX01HelloWorld\obj\Debug\EX01HelloWorld.exe
+C:\CodeFolder\S1\Console\IntroTilCsOgVs\EX01HelloWorld\obj\Debug\EX01HelloWorld.pdb
