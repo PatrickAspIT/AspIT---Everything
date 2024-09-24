@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 500px) {
+
+    /* Button general */
+
+    .normalButton {
+        color: white;
+        background-color: #f1b828;
+        border: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    
+    /* Header */
+
+    header {
+        /* background-color: black; */
+        display: flex;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        border-bottom: 2px solid;
+        border-color: white;
+    }
+
+    #logoIcon {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(214deg) brightness(107%) contrast(101%);
+        height: 30px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+    }
+
+    #topnavLeft {
+        display: flex;
+        width: 75%;
+        justify-content: space-between;
+        align-items: center;
+        border-right: 1px solid;
+        border-color: white;
+    }
+
+    #topnavLeft h5 {
+        margin-right: 10px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    #topnavRight {
+        display: flex;
+        width: 25%;
+        align-items: center;
+        border-left: 1px solid;
+        border-color: white;
+    }
+
+    #topnavRight h5 {
+        margin-left: 10px;
+        color: darkgray;
+        text-transform: uppercase;
+    }
+
+    /* Dropdown Menu */
+
+    .dropdownMenu, #checkboxLeft, #checkboxRight {
+        display: none;
+        position: absolute;
+    }
+
+    #checkboxLeft {
+        display: block;
+        top: 30px;
+        right: 135px;
+        width: 40px;
+    }
+
+    #checkboxLeft:checked ~ .dropdownMenu {
+        display: block;
+    }
+
+    #checkboxLeft:checked + h5 {
+        color: black;
+    }
+
+    #checkboxRight {
+        display: block;
+        top: 30px;
+        right: 35px;
+        width: 75px;
+    }
+
+    #checkboxRight:checked ~ .dropdownMenu {
+        display: block;
+    }
+
+    #checkboxRight:checked + h5 {
+        color: black;
+    }
+
+    .dropdownMenu {
+        top: 40px;
+        
+    }
+
+    .dropdownMenu ul {
+        list-style-type: none;
+    }
+
+    .dropdownMenu a {
+        color: white;
+        text-decoration: none;
+        background-color: black;
+    }
+
+    #dropdownLeft {
+        left: 0px;
+    }
+
+    #dropdownRight {
+        right: 0px;
+    }
+
+    /* Main */
+
+    /* headerSection */
+
+    #headerSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    #headersecImg {
+        width: 180%;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        filter: brightness(70%);
+    }
+
+    #headersecLogo {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(214deg) brightness(107%) contrast(101%);
+        width: 150px;
+        margin-top: 180px;
+    }
+
+    #headerSection h1 {
+        color: white;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #headerSection h2 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .fa-arrow-down-long {
+        margin-top: 50px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    #headersecButton {
+        color: white;
+        background-color: #f1b828;
+        width: 80%;
+        border: none;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    /* blueSection */
+
+    .blueSection {
+        padding-top: 40px;
+        background-color: #3f5666;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .blueSection h2 {
+        color: white;
+        text-transform: uppercase;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 400;
+    }
+
+    .blueSection li {
+        color: white;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .blueSection li a {
+        color: darkgray;
+        text-decoration: none;
+    }
+
+    #bluesecButton {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    #noBorder {
+        border: none;
+    }
+
+    /* Textsection */
+
+    .textSection {
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textSection h2 {
+        color: #455b6b;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .textSection p {
+        color: #455b6b;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .textsecButton {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* Picturesection */
+
+    .pictureSection {
+        display: flex;
+        width: 94%;
+        margin-top: 30px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .pictureSection img {
+        margin: 5px;
+    }
+
+    .picturesecSingle {
+        width: 50%;
+    }
+
+    .picturesecColumn {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .picturesecColumn img {
+        width: 95%;
+        height: 48%;
+    }
+
+    /* Awardsection */
+
+    .awardSection {
+        display: flex;
+        flex-wrap: wrap;
+        width: 94%;
+        margin-bottom: 30px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .awardSection div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin-top: 40px;
+        
+    }
+
+    .awardSection div img {
+        width: 40%;
+    }
+
+    .awardSection div h3 {
+        text-transform: uppercase;
+        font-size: 15px;
+        margin: 3px;
+        text-align: center;
+    }
+
+    .awardSection div p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* Caterersection */
+
+    .catererSection {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .catererSection img {
+        width: 100%;
+    }
+
+    .catererSection h3 {
+        text-transform: uppercase;
+        margin-top: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .catererSection p {
+        font-size: 12px;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 501px) {
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    
+}
