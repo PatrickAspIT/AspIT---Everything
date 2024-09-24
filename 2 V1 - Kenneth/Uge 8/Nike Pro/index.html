@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Pro</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header>
+      <nav>
+        <img src="./img-til-opgave/Nike-logo-clean.png" alt="" id="navLogo" />
+        <input type="checkbox" id="navCheck" />
+        <img src="./img-til-opgave/bars-solid.svg" alt="" id="navBars" />
+        <img src="./img-til-opgave/times-solid.svg" alt="" id="navX" />
+        <ul id="navLinks">
+          <li>
+            <a href="index.html">Forside</a>
+          </li>
+          <li>
+            <a href="historien.html">Historien om Nike</a>
+          </li>
+          <li>
+            <a href="om.html">Om Nike pro shop</a>
+          </li>
+          <li>
+            <a href="kontakt.html">Kontakt os</a>
+          </li>
+        </ul>
+      </nav>
+      <img
+        src="./img-til-opgave/Slideshow-image-1.jpg"
+        alt=""
+        id="headerImage"
+      />
+    </header>
+
+    <!-- Main -->
+
+    <main>
+      <p>
+        Nike har siden deres spæde begyndelse i Oregon, været symbolet på
+        innovation indenfor sportsverdenen.
+      </p>
+      <p>
+        <br />
+        Fra løbesko til fodboldstøvler, over golfbolde og til snowboardtøj
+        dækker de efterhånden hele paletten. Her hos Nike Pro Shop fokuserer vi
+        selvfølgelig på Nike sko og sneakers, men vi forsøger også at snige lidt
+        apparel ind i udvalget, når vi finder gode basic styles.
+      </p>
+      <p>
+        <br />
+        I det hele taget gør vi alt hvad vi kan for at holde vores udvalg
+        opdateret med de bedste styles fra Nike, både hvad angår deres
+        innovative teknologier og populære silhuetter som P-6000, Air Max,
+        VaporMax og den voksende Ultra serie, men vi forsøger også altid at have
+        de vigtigste klassikere på vores hylder, som Air Force, Cortez, React
+        Element og Pegasus.
+      </p>
+
+      <div id="imageSection">
+        <div>
+          <img src="./img-til-opgave/Nike-aqua.jpg" alt="" />
+          <h3>Nike aqua</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-aquamarine.jpg" alt="" />
+          <h3>Nike aquamarine</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-bauhaus.jpg" alt="" />
+          <h3>Nike Bauhaus</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-blackwhite.jpg" alt="" />
+          <h3>Nike Black/White</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-greenyellow.jpg" alt="" />
+          <h3>Nike Green/Yellow</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-orange.jpg" alt="" />
+          <h3>Nike Orange</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-pastel.jpg" alt="" />
+          <h3>Nike Pastel</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-rainbow.jpg" alt="" />
+          <h3>Nike Rainbow</h3>
+        </div>
+        <div>
+          <img src="./img-til-opgave/Nike-whitered.jpg" alt="" />
+          <h3>Nike White/Red</h3>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <div id="footerText">
+        <div>
+          <h3>Nike Pro Shop Stores</h3>
+          <h5>København</h5>
+          <p>Rådhusstræde 6, st.</p>
+          <p>1466 København K</p>
+          <h5>Aarhus</h5>
+          <p>Søndergade 70</p>
+          <p>8000 Aarhus</p>
+          <h5>Odense</h5>
+          <p>Vestergade 23</p>
+          <p>5000 Odense</p>
+        </div>
+        <div>
+          <h3>Åbningstider:</h3>
+          <p>Mandag - fredag: 10:00 - 18:00</p>
+          <p>Lørdag: 10:00 - 13:00</p>
+          <br />
+          <p>Telefon: (+45) 33 91 18 18</p>
+          <p>E-mail: online@NikeProShop.dk</p>
+        </div>
+      </div>
+
+      <div id="footerRight">
+        <h3>Nike Pro Shop på de sociale medier:</h3>
+        <div id="footerImg">
+          <img src="./img-til-opgave/FacebookIcon.png" alt="" />
+          <img src="./img-til-opgave/InstagramIcon.png" alt="" />
+          <img src="./img-til-opgave/TwitterIcon.png" alt="" />
+        </div>
+        <div id="footerLink">
+          <a href="kontakt.html">Kontakt</a>
+          <a href="om.html">Om Nike Pro Shop</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+
+    <script>
+      const checkbox = document.getElementById("navCheck");
+      const mainTag = document.querySelector("main");
+      const footerTag = document.querySelector("footer");
+      const elementToHide = document.getElementById("headerImage");
+
+      checkbox.addEventListener("change", function () {
+        if (checkbox.checked) {
+          mainTag.style.display = "none";
+          footerTag.style.display = "none";
+          elementToHide.style.display = "none";
+        } else {
+          mainTag.style.display = "block";
+          footerTag.style.display = "block";
+          elementToHide.style.display = "block";
+        }
+      });
+    </script>
+  </body>
+</html>
