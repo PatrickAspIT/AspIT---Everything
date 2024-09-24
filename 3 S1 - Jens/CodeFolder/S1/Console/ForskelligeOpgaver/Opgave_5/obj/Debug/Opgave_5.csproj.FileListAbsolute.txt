@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_5\bin\Debug\Opgave_5.exe.config
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_5\bin\Debug\Opgave_5.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_5\bin\Debug\Opgave_5.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_5\obj\Debug\Opgave_5.csprojAssemblyReference.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_5\obj\Debug\Opgave_5.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_5\obj\Debug\Opgave_5.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_5\obj\Debug\Opgave_5.pdb

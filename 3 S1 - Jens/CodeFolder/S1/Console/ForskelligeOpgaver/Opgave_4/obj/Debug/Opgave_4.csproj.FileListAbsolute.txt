@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_4\bin\Debug\Opgave_4.exe.config
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_4\bin\Debug\Opgave_4.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_4\bin\Debug\Opgave_4.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_4\obj\Debug\Opgave_4.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_4\obj\Debug\Opgave_4.exe
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_4\obj\Debug\Opgave_4.pdb
+C:\CodeFolder\S1\Console\ForskelligeOpgaver\Opgave_4\obj\Debug\Opgave_4.csprojAssemblyReference.cache
