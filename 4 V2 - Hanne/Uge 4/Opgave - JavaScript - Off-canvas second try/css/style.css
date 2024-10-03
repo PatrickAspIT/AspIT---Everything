@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+
+body 
+{
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 50%);
+}
+
+/* Nav Styling */
+
+nav
+{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+/* #menu-icon */
+
+#menu-icon > img
+{
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  z-index: 7;
+}
+
+.hidden
+{
+  opacity: 0;
+}
+
+/* #navigation */
+
+#navigation
+{
+  position: absolute;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  width: calc(100% - 8rem);
+  height: calc(100vh - 5rem);
+  background-color: hsla(0, 0%, 20%, 0.6);  
+}
+
+#navigation li
+{
+  list-style-type: none;
+  text-align: left;
+  width: 30%;
+  padding-left: 70%;
+
+}
+
+#navigation li a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.slideNav
+{
+  transition: transform 0.2s ease-in-out;
+  animation: slideFromRight 1s 1;
+}
+
+@keyframes slideFromRight {
+  from {transform: translateX(150%);}
+  to {transform: translateX(0%);}
+}
+
+/* #showsubmenu */
+
+.arrow 
+{
+  width: 20px;
+  height: 20px;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 115px;
+  background-color: hsl(0, 0%, 50%);
+  
+}
+
+#showsubmenu > ul 
+{
+  display: none;
+}
+
+#showsubmenu > ul li 
+{
+  padding-left: 50px;
+}
+
+@media screen and (min-width: 800px)
+{
+
+  /* Nav Styling */
+
+  nav
+  {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* #menu-icon */
+
+  #menu-icon > img
+  {
+    display: none;
+  }
+
+  /* #navigation */
+
+  #navigation
+  {
+    position: relative;
+    top: initial;
+    right: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    background-color: hsl(0, 0%, 10%);
+  }
+
+  .slideNav
+  {
+    animation: none;
+  }
+
+  .hidden 
+  {
+    opacity: 1;
+  }
+  
+  /* #showsubmenu */
+
+  .arrow 
+  {
+    display: none;
+  }
+}

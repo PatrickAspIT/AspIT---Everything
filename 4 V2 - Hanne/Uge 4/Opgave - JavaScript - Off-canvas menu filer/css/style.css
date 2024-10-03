@@ -1,0 +1,97 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+
+body 
+{
+  background-color: hsl(0, 0%, 50%);
+  overflow: hidden;
+}
+
+/* Nav Styling */
+
+nav 
+{
+  background-color: hsla(0, 0%, 20%, 0.6);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  height: 100vh;
+  width: calc(100% - 6rem);
+  display: flex;
+  justify-content: flex-end;
+  animation: moveIn 1s linear 1 none;
+  animation-fill-mode: both;
+  position: absolute;
+}
+
+#menu-icon:hover
+{
+  cursor: pointer;
+}
+
+#menu-icon img
+{
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  right: 4rem;
+}
+
+.hidden 
+{
+  opacity: 0;
+}
+
+#navigation
+{
+  margin-top: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;  
+}
+
+#navigation a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-align: end;
+}
+
+@keyframes moveIn
+{
+  from{transform: translateX(500%);}
+  to{transform: translateX(0);}
+}
+
+/* Main Styling */
+
+
+
+/* DESKTOP SCREEN */
+
+@media screen and (min-width: 800px)
+{
+
+  /* Nav Styling */
+
+  nav 
+  {
+    background-color: hsl(0, 0%, 10%);
+    /* justify-content: center; */
+  }
+
+  #navigation
+{
+  flex-direction: row;  
+  margin-top: 0;
+  width: 100%;
+  justify-content: space-evenly;
+}
+}

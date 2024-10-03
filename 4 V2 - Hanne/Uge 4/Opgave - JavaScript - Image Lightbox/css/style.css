@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+
+body 
+{
+  display: flex;
+  justify-content: center;
+  background-color: darkgrey;
+}
+
+/* Overlay Styling */
+
+.overlay
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: hsla(0, 0%, 10%, 0.9);
+  cursor: pointer;
+}
+
+.overlay img
+{
+  max-width: 90%;
+  height: 50%;
+}
+
+/* Gallery Styling */
+
+.gallery
+{
+  width: 80%;
+  max-width: 1280px;
+}
+
+/* Ul Styling */
+
+#gallery ul
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Li Styling */
+
+#gallery ul li
+{
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+/* Img Styling */
+
+#gallery ul li img
+{
+  cursor: pointer;
+  width: 100%;
+}
+
+/* DESKTOP SCREEN */
+
+@media screen and (min-width: 800px) {
+
+  /* Overlay Styling */
+  .overlay img
+  {
+    max-width: 90%;
+    height: 90%;
+  }
+
+  /* Ul Styling */
+  #gallery ul
+  {
+    flex-direction: row;
+  }
+
+  /* Li Styling */
+  #gallery ul li
+  {
+    width: 150px;
+    margin: 20px;
+  }
+
+}
