@@ -1,0 +1,256 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    --groen1: hsl(100, 50%, 10%);
+    --groen2: hsl(100, 50%, 30%);
+    --groen3: hsl(100, 50%, 50%);
+    --groen4: hsl(100, 50%, 70%);
+    --groen5: hsl(100, 50%, 90%);
+
+    --blaa1: hsl(200, 50%, 10%);
+    --blaa2: hsl(200, 50%, 30%);
+    --blaa3: hsl(200, 50%, 50%);
+    --blaa4: hsl(200, 50%, 70%);
+    --blaa5: hsl(200, 50%, 90%);
+
+    --lyseroed1: hsl(300, 50%, 10%);
+    --lyseroed2: hsl(300, 50%, 30%);
+    --lyseroed3: hsl(300, 50%, 50%);
+    --lyseroed4: hsl(300, 50%, 70%);
+    --lyseroed5: hsl(300, 50%, 90%);
+
+    --orange: hsl(40, 50%, 50%);
+}
+
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header
+{
+    margin: 1rem;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2
+{
+    cursor: pointer;
+}
+
+main > div
+{
+    width: calc(20% - 4rem);
+    height: 200px;
+    margin: 2rem;
+}
+
+main > div > div
+{  
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main > div > div + div
+{
+    background-color: antiquewhite;
+}
+
+/* Colors */
+
+/* Green */
+main > div:nth-child(1) > div
+{
+    background-color: var(--groen1);
+}
+
+main > div:nth-child(2) > div
+{
+    background-color: var(--groen2);
+}
+
+main > div:nth-child(3) > div
+{
+    background-color: var(--groen3);
+}
+
+main > div:nth-child(4) > div
+{
+    background-color: var(--groen4);
+}
+
+main > div:nth-child(5) > div
+{
+    background-color: var(--groen5);
+}
+
+/* Green hover */
+
+main > div:nth-child(1) > h2:hover + div
+{
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(2) > h2:hover + div
+{
+    transform: translateX(-20%);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(3) > h2:hover + div
+{
+    transform: scale(50%);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(4) > h2:hover + div
+{
+    transform-origin: top center;
+    transform: scale(200%);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(5) > h2:hover + div
+{
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+}
+
+/* Blue */
+main > div:nth-child(6) > div
+{
+    background-color: var(--blaa1);
+}
+
+main > div:nth-child(7) > div
+{
+    background-color: var(--blaa2);
+}
+
+main > div:nth-child(8) > div
+{
+    background-color: var(--blaa3);
+}
+
+main > div:nth-child(9) > div
+{
+    background-color: var(--blaa4);
+}
+
+main > div:nth-child(10) > div
+{
+    background-color: var(--blaa5);
+}
+
+/* Blue Hover */
+
+main > div:nth-child(6) > h2:hover + div
+{
+    transform-origin: bottom right;
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(7) > h2:hover + div
+{
+    transform: scale(150%, 50%);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(8) > h2:hover + div
+{
+    transform: skewX(-10deg);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(9) > h2:hover + div
+{
+    transform: skewX(20deg) translateX(-600vw);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(10) > h2:hover + div
+{
+    transform: rotate(1080deg);
+    transition: transform 0.5s;
+}
+
+/* Light Red */
+
+main > div:nth-child(11) > div
+{
+    background-color: var(--lyseroed1);
+}
+
+main > div:nth-child(12) > div:first-of-type
+{
+    display: none;
+}
+
+main > div:nth-child(12) > div
+{
+    background-color: var(--lyseroed2);
+}
+
+main > div:nth-child(13) > div
+{
+    background-color: var(--lyseroed3);
+}
+
+main > div:nth-child(14) > div
+{
+    background-color: var(--lyseroed4);
+}
+
+main > div:nth-child(15) > div
+{
+    background-color: var(--lyseroed5);
+}
+
+/* Light Red Hover */
+
+main > div:nth-child(11) > h2:hover + div
+{
+    border-radius: 100%;
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(12) > h2:hover ~ div
+{
+    background-image: url(../img/hotel.jpg);
+    transform: rotate(-50deg);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(13) > h2:hover + div
+{
+    background-color: var(--orange);
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(14) > h2:hover + div
+{
+    opacity: 50%;
+    transition: transform 0.5s;
+}
+
+main > div:nth-child(15) > h2:hover + div
+{
+    transform: rotate(360deg) scale(200%);
+    background-color: var(--lyseroed2);
+    opacity: 50%;
+    transition: transform 0.5s;
+}

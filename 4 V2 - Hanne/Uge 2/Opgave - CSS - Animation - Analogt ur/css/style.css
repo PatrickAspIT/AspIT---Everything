@@ -1,0 +1,69 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.clockCircle
+{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.timers 
+{
+  width: 100%;
+}
+
+.timers div 
+{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secondTimer
+{
+  background-color: gray;
+  height: 200px;
+  top: 25%;
+  width: 5px;
+  transform-origin: bottom center;
+  animation: timer 60s linear infinite both;
+  z-index: 7;
+}
+
+.minuteTimer
+{
+  background-color: darkgray;
+  height: 150px;
+  top: 31%;
+  width: 5px;
+  transform-origin: bottom center;
+  animation: timer 3600s linear infinite both;
+  z-index: 7;
+}
+
+.hourTimer
+{
+  background-color: black;
+  height: 180px;
+  top: 28%;
+  width: 8px;
+  transform-origin: bottom center;
+  animation: timer 43200s linear infinite both;
+}
+
+@keyframes timer {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

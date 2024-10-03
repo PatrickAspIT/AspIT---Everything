@@ -1,0 +1,17 @@
+Microphones
+
+Capture your sound. Whether that be a voice or instrument, studio microphones let you record your sound source.
+
+The microphone you use can alter the sound you capture, so it's important to get the right mic for the job, whether that be recording vocals, a podcast, instruments or drums.
+
+We have microphones for all purposes.For live, studio or podcast use. Shure is the best known and respected brand in terms of microphones. Among the most popular models are SM58, SM57 and SH55.
+
+Buy today for fast delivery and competitive warranty.
+
+Windscreens (or windshields - the terms are interchangeable) provide a method of reducing the effect of wind on microphones. While pop-screens give protection from unidirectional blasts, foam "hats" shield wind into the grille from all directions, and blimps, zeppelins, and baskets entirely enclose the microphone and protect its body as well. The latter is important because, given the extreme low-frequency content of wind noise, vibration induced in the housing of the microphone can contribute substantially to the noise output.
+
+The shielding material used - wire gauze, fabric or foam - is designed to have a significant acoustic impedance. The relatively low particle-velocity air pressure changes that constitute sound waves can pass through with minimal attenuation, but higher particle-velocity wind is impeded to a far greater extent. Increasing the thickness of the material improves wind attenuation but also begins to compromise high-frequency audio content. This limits the practical size of simple foam screens. While foams and wire meshes can be partly or wholly self-supporting, soft fabrics and gauzes require stretching on frames or laminating with coarser structural elements.
+
+Since all wind noise is generated at the first surface the air hits, the greater the spacing between the shield periphery and microphone capsule, the greater the noise attenuation. For an approximately spherical shield, attenuation increases by (approximately) the cube of that distance. With full basket windshields there is an additional pressure chamber effect, first explained by Joerg Wuttke which, for two-port (pressure gradient) microphones, allows the shield and microphone combination to act as a high-pass acoustic filter.
+
+Since turbulence at a surface is the source of wind noise, reducing gross turbulence can add to noise reduction. Both aerodynamically smooth surfaces, and ones that prevent powerful vortices being generated, have been used successfully. Historically, artificial fur has proved very useful for this purpose since the fibers produce micro-turbulence and absorb energy silently. If not matted by wind and rain, the fur fibers are very transparent acoustically, but the woven or knitted backing can give significant attenuation. As a material, it suffers from being difficult to manufacture with consistency and is hard to keep in pristine condition on location. Thus there is an interest in moving away from its use.

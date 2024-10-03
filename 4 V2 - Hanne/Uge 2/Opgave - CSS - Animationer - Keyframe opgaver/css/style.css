@@ -1,0 +1,103 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  overflow: hidden;
+}
+
+.item
+{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+}
+
+.box
+{
+  background-color: red;
+  animation: movement 4s linear 1s 4 alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes movement {
+  0% {left: 0%; top: 0%;}
+  25% {background-color: yellow; left: 50%; top: 0%;}
+  50% {background-color: blue; left: 50%; top: 50%;}
+  75% {background-color: green; left: 0%; top: 50%;}
+  100% {left: 0%; top: 0%;}
+}
+
+.circle
+{
+  border-radius: 100%;
+  left: -150%;
+  background-color: red;
+  animation: moveRight 6s linear 0s 1 none;
+}
+
+@keyframes moveRight {
+  from {right: 0%; bottom: 0%;}
+  to {left: 150%; bottom: 0%;}
+}
+
+.wheel
+{
+  border-radius: 100%;
+  left: -200px;
+  background-color: white;
+  border-style: solid;
+  border-color: darkslategray;
+  border-width: 5px;
+  animation: wheelCenter 6s linear 1s infinite none;
+}
+
+.wheel-line
+{
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 48%;
+  background: darkslategray;
+}
+
+.wheel-line:nth-of-type(1)
+{
+  transform: rotate(45deg);
+}
+
+.wheel-line:nth-of-type(2)
+{
+  transform: rotate(90deg);
+}
+
+.wheel-line:nth-of-type(3)
+{
+  transform: rotate(135deg);
+}
+
+.wheel-line:nth-of-type(4)
+{
+  transform: rotate(180deg);
+}
+
+@keyframes wheelCenter {
+  from {right: 0%; bottom: 0%; transform: rotate(0deg);}
+  to {left: 150%; bottom: 0%; transform: rotate(1080deg);}
+}
+
+.spinningCircle
+{
+  position: absolute;
+  background-color: grey;
+  border-radius: 100%;
+  top: 50%;
+  left: 70%;
+  width: 100px;
+  height: 100px;
+  opacity: 30%;
+}

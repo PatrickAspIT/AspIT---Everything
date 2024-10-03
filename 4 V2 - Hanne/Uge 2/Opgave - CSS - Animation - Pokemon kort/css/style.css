@@ -1,0 +1,83 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div img
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  z-index: 5;
+}
+
+div img:hover
+{
+  width: 300px;
+  z-index: 7;
+}
+
+div:nth-of-type(1) img 
+{
+  animation: firstCard 3s linear 1s 1 none;
+  animation-fill-mode: both;
+}
+
+div:nth-of-type(2) img 
+{
+  animation: secondCard 3s linear 1s 1 none;
+  animation-fill-mode: both;
+}
+
+div:nth-of-type(3) img 
+{
+  animation: thirdCard 3s linear 1s 1 none;
+  animation-fill-mode: both;
+}
+
+div:nth-of-type(4) img 
+{
+  animation: fourthCard 3s linear 1s 1 none;
+  animation-fill-mode: both;
+}
+
+div:nth-of-type(5) img 
+{
+  animation: fifthCard 3s linear 1s 1 none;
+  animation-fill-mode: both;
+}
+
+@keyframes firstCard {
+  from {top: 50%; left: 50%;}
+  to {transform: translateX(130px) translateY(-120px) rotate(10deg);}
+}
+
+@keyframes secondCard {
+  from {top: 50%; left: 50%;}
+  to {transform: translateX(10px) translateY(-130px) rotate(5deg);}
+}
+
+@keyframes thirdCard {
+  from {top: 50%; left: 50%;}
+  to {top: 50%; left: 50%;}
+}
+
+@keyframes fourthCard {
+  from {top: 50%; left: 50%;}
+  to {transform: translateX(-230px) translateY(-130px) rotate(-5deg);}
+}
+
+@keyframes fifthCard {
+  from {top: 50%; left: 50%;}
+  to {transform: translateX(-330px) translateY(-120px) rotate(-10deg);}
+}
