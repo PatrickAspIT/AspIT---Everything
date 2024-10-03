@@ -1,0 +1,88 @@
+﻿<Window x:Class="WpfAppIntroduktionString.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppIntroduktionString"
+        mc:Ignorable="d"
+        Title="Opgave 1 WPF - IntroduktionString" Height="750" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="9" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_1" Click="Opgave_1_Click">
+            Opgave 1
+        </Button>
+        <Button Grid.Column="1" Grid.Row="9" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_2" Click="Opgave_2_Click">
+            Opgave 2
+        </Button>
+        <Button Grid.Column="2" Grid.Row="9" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_3" Click="Opgave_3_Click">
+            Opgave 3</Button>
+        <Button Grid.Column="3" Grid.Row="9" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_4" Click="Opgave_4_Click">
+            Opgave 4
+        </Button>
+        <Button Grid.Column="0" Grid.Row="10" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_5" Click="Opgave_5_Click">
+            Opgave 5
+        </Button>
+        <Button Grid.Column="1" Grid.Row="10" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_6" Click="Opgave_6_Click">
+            Opgave 6
+        </Button>
+        <Button Grid.Column="2" Grid.Row="10" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_7" Click="Opgave_7_Click">
+            Opgave 7
+        </Button>
+        <Button Grid.Column="3" Grid.Row="10" 
+            Width="200" Height="50" 
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Name="Opgave_8" Click="Opgave_8_Click">
+            Opgave 8
+        </Button>
+
+        <TextBox x:Name="textBoxMain" 
+               Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="9"
+               Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch"/>
+        <TextBox x:Name="textBoxResult" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="9"
+               Margin="10" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch"/>
+        <TextBox x:Name="textBoxFindWord" Grid.Column="0" Grid.Row="11"
+               Width="200" Height="50" Text="" VerticalAlignment="Stretch"/>
+    </Grid>
+</Window>

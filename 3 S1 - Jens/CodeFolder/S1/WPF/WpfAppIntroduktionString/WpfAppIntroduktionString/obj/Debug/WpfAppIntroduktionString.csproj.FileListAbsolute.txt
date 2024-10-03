@@ -1,0 +1,15 @@
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\MainWindow.g.cs
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\App.g.cs
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString_MarkupCompile.cache
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString_MarkupCompile.lref
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\bin\Debug\WpfAppIntroduktionString.exe.config
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\bin\Debug\WpfAppIntroduktionString.exe
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\bin\Debug\WpfAppIntroduktionString.pdb
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\MainWindow.baml
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString.g.resources
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString.Properties.Resources.resources
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString.csproj.GenerateResource.cache
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString.exe
+C:\CodeFolder\S1\WPF\WpfAppIntroduktionString\WpfAppIntroduktionString\obj\Debug\WpfAppIntroduktionString.pdb
