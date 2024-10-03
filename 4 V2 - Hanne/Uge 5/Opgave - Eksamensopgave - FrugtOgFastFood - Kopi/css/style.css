@@ -1,0 +1,628 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+
+body
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header" 
+  "nav" 
+  "divRecipes" 
+  "main" 
+  "footer";
+  font-size: 1.4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: calc(80px + 1rem);
+}
+
+/* Header Styling */
+
+header,
+footer
+{
+  background-color: hsl(104, 58%, 47%);
+}
+
+header
+{
+  position: fixed;
+  top: 0px;
+  width: calc(100% - 1rem);
+  grid-area: header;
+  height: 80px;
+  padding: 0.5rem;
+}
+
+header > a > img
+{
+  height: 100%;
+}
+
+header > img 
+{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.hidden
+{
+  opacity: 0;
+}
+
+.animateIcons
+{
+  transition: transform 0.2s ease-in-out;
+  animation: changeIcon 1s 1;
+}
+
+@keyframes changeIcon
+{
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+
+.animateNav
+{
+  transition: transform 0.2s ease-in-out;
+  animation: aniNav 1s 1;
+}
+
+@keyframes aniNav
+{
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(0%);
+  }
+}
+
+/* Nav Styling */
+
+nav
+{
+  position: absolute;
+  top: calc(80px + 1rem);
+  right: 0px;
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, 0.95);
+  /* z-index: 100; */
+}
+
+nav a,
+#smallMenu a,
+footer a,
+footer p
+{
+  color: hsl(0, 0%, 96%);
+  text-decoration: none;
+}
+
+nav a
+{
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav a:hover
+{
+  background-color: hsla(0, 0%, 0%, 0.3);
+}
+
+/* DIV Recipes Styling */
+
+#smallMenu
+{
+  grid-area: divRecipes;
+  background-color: hsl(28, 96%, 48%);
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+#smallMenu > a
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Main Styling */
+
+main
+{
+  grid-area: main;
+  padding: 1rem;
+}
+
+main p 
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main h1,
+main h2,
+main h3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1
+{
+  font-size: 2.5rem;
+}
+
+main h2
+{
+  font-size: 1.5rem;
+}
+
+main h3
+{
+  font-size: 1.2rem;
+}
+
+main section
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#indexHideLogo
+{
+  display: none;
+}
+
+#indexImg > article img,
+#fruitSite img,
+#juiceSiteSection > article img,
+#graeskarsuppe > img,
+#kikaerteboeffer > img,
+#fladbroed > img
+{
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#graeskarsuppe > h3,
+#graeskarsuppe > h4,
+#kikaerteboeffer > h3,
+#kikaerteboeffer > h4,
+#fladbroed > h3,
+#fladbroed > h4
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#indexImg > article
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#indexImg > article > img,
+#fruitSite > img,
+#graeskarsuppe > img,
+#kikaerteboeffer > img,
+#fladbroed > img
+{
+  cursor: pointer;
+}
+
+#fruitSite img
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.juiceSection
+{
+  display: none;
+  grid-area: rightSlideShow;
+}
+
+/* Footer Styling - Should be done, don't change */
+
+footer 
+{
+  grid-area: footer;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer > section > img,
+footer > div > section > img 
+{
+  width: 50px;
+}
+
+footer p,
+footer a
+{
+  color: hsl(0, 0%, 96%);
+  text-decoration: none;
+}
+
+footer section 
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer > div > section,
+footer section:nth-of-type(2),
+footer section:nth-of-type(3)
+{
+  display: flex;
+  align-items: center;
+}
+
+footer > div > section > p,
+footer section:nth-of-type(2) p,
+footer section:nth-of-type(2) a,
+footer section:nth-of-type(3) a
+{
+  margin-left: 20px;
+}
+
+/* Desktop Version */
+
+@media screen and (min-width: 1000px){
+  
+  /* Body Styling */
+
+  body
+  {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "divRecipes divRecipes divRecipes divRecipes"
+    "main main main rightSlideShow"
+    "footer footer footer rightSlideShow";
+  }
+
+  #juiceSite
+  {
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "divRecipes divRecipes divRecipes divRecipes"
+    "main main main main"
+    "footer footer footer footer";
+  }
+  
+  /* Header Styling */
+
+  header
+  {
+    display: flex;
+  }
+
+  header > img 
+  {
+    display: none;
+  }
+  
+  /* Nav Styling */
+
+  nav
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    height: 80px;
+    width: 80%;
+    right: initial;
+    top: initial;
+  }
+
+  .hidden
+  {
+    opacity: 1;
+  }
+
+  /* DIV Recipes Styling */
+
+  #smallMenu 
+  {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* Main Styling */
+
+  main
+  {
+    padding: 4rem;
+  }
+
+  main h1
+  {
+    font-size: 3rem;
+  }
+
+  main h2
+  {
+    font-size: 2.3rem;
+  }
+  
+  #indexHideLogo
+  {
+    display: block;
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+  }
+
+  #indexHideLogo img
+  {
+    width: 100%;
+  }
+
+  /* #indexImg > article img:hover,
+  #fruitSite img:hover,
+  #graeskarsuppe > img:hover,
+  #kikaerteboeffer > img:hover,
+  #fladbroed > img:hover
+  {
+    opacity: 0.8;
+  } */
+
+  #indexImg
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #indexImg > article
+  {
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #indexImg > article > img 
+  {
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  #indexImg > article > p 
+  {
+    display: none;
+  }
+
+  #fruitSite 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #fruitSite img
+  {
+    width: 30%;
+  }
+
+  .juiceSection
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    right: 10px;
+    top: calc(80px + 1.2rem);
+    width: calc(25% - 1.2rem);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .juiceSection > article > p
+  {
+    margin-top: 0px;
+  }
+
+  .juiceSection > article > a > img
+  {
+    width: 70%;
+  }
+
+  .juiceImgHide
+  {
+    display: none;
+  }
+
+  #juiceSiteSection > article 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #juiceSiteSection > article > section 
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #juiceSiteSection > article > section > div 
+  {
+    width: 22%;
+  }
+
+  #juiceSiteSection > article > section > div > img
+  {
+    height: auto;
+  }
+
+  #juiceSiteSection > article > section > div > img,
+  #juiceSiteSection > article > section > div > p
+  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  /* Lightbox Styling */
+
+  .lightBox
+  {
+    background-color: hsla(0, 0%, 10%, 0.95);
+    position: fixed;
+    width: calc(100% - 15%);
+    height: calc(100% - 80px);
+    display: flex;
+    top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+
+  .lightBox > img
+  {
+    width: auto;
+    height: calc(100vh - 80px);
+  }
+
+  .lightBox > div
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .lightBox > div > h4, 
+  .lightBox > div > p 
+  {
+    color: white;
+    height: 30px;
+  }
+
+  .lightBox > div > p
+  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .lightBoxCenter
+  {
+    background-color: hsla(0, 0%, 10%, 0.95);
+    position: fixed;
+    top: 0px;
+    width: calc(100% - 20%);
+    height: calc(100% - 80px);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+  }
+
+  .lightBoxCenter > img
+  {
+    width: 100%;
+    max-height: calc(100vh - 80px);
+  }
+
+  /* Opskrifter Site */
+
+  #graeskarsuppe,
+  #kikaerteboeffer,
+  #fladbroed
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #graeskarsuppe > div > h4,
+  #kikaerteboeffer > div > h4,
+  #fladbroed > div > h4
+  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #graeskarsuppe > img,
+  #kikaerteboeffer > img,
+  #fladbroed > img
+  {
+    width: 30%;
+    margin-right: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #graeskarsuppe > div:nth-of-type(1),
+  #kikaerteboeffer > div:nth-of-type(1),
+  #fladbroed > div:nth-of-type(1)
+  {
+    width: 30%;
+  }
+
+  #graeskarsuppe > div:nth-of-type(2),
+  #kikaerteboeffer > div:nth-of-type(2),
+  #fladbroed > div:nth-of-type(2)
+  {
+    width: calc(70% - 1rem);
+    margin-left: 1rem;
+  }
+
+  /* Footer Styling - Should be done, don't change */
+
+  footer 
+  {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  footer > section:nth-of-type(1),
+  footer > section:nth-of-type(5)
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer > section:nth-of-type(5) img
+  {
+    width: 50px;
+  }
+
+}
