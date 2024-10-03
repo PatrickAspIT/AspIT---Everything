@@ -1,0 +1,7 @@
+Patrick Tutorial:
+Stopped at: 31:14
+Reason: SQL Server Studio, different server
+
+Microsoft Tutorial:
+Examine the GET methods ?
+Test the PutTodoItem method ?
