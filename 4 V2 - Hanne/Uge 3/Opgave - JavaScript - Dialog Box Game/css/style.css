@@ -1,0 +1,31 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+
+body{ 
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;  
+  min-height: 100vh;  
+  background: orange;  
+} 
+
+button
+{ 
+  background: red;  
+  color: white;  
+  padding: 2rem 3rem;  
+  font-size: 2rem;  
+  border: none;  
+}
+  
+#result{  
+  font-size: 1.4rem;  
+  line-height: 1.2;  
+  padding: 1rem;
+}

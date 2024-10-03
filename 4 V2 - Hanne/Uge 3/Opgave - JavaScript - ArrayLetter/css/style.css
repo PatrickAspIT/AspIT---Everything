@@ -1,0 +1,110 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+
+body
+{
+  background-color: #cccccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* Main Styling */
+
+main 
+{
+  background-color: white;
+  height: 100vh;
+  width: 80%;
+  padding: 10%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 150px 300px 1fr;
+  grid-template-areas: 
+  "senderInfo"
+  "receiverInfo"
+  "letter"
+  "bySender";
+}
+
+/* #senderInfo */
+
+#senderInfo
+{
+  grid-area: senderInfo;
+  display: flex;
+  flex-direction: row-reverse;  
+}
+
+#senderInfo div 
+{
+  margin-right: 15px;
+  text-align: end;
+}
+
+#senderInfo div a 
+{
+  text-decoration: none;
+  color: black;
+}
+
+#senderInfo img
+{
+  width: 100px;
+  height: 100px;
+}
+
+/* #receiverInfo */
+
+#receiverInfo
+{
+  grid-area: receiverInfo;
+  display: flex;
+  flex-direction: column;
+}
+
+#receiverInfo p 
+{
+  margin-top: 5px;
+}
+
+#receiverInfo p:nth-of-type(5)
+{
+  text-align: end;
+}
+
+/* #letter */
+
+#letter
+{
+  grid-area: letter;
+}
+
+#letter p
+{
+  margin-top: 15px;
+}
+
+#letter p a 
+{
+  text-decoration: none;
+  color: black;
+}
+
+/* bySender */
+
+#bySender
+{
+  grid-area: bySender;
+}
+
+#bySender p
+{
+  margin-top: 5px;
+}

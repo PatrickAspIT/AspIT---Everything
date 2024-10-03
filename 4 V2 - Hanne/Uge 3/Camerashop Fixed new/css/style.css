@@ -1,0 +1,405 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 160px 270px auto 50px;
+  grid-template-areas: 
+  "header"
+  "nav"
+  "main"
+  "footer";
+  height: 100vh;
+}
+
+#indexBody {
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+  grid-template-rows: 150px auto 50px;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+/* Header Styling */
+
+header,
+footer
+{
+  width: 100%;
+  text-align: center;
+  background-color: #19344d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header 
+{
+  grid-area: header;
+}
+
+header h1 
+{
+  color: #b7cedc;
+  font-size: 10vw;
+}
+
+/* Nav Styling */
+
+nav 
+{
+  grid-area: nav;
+  background-color: #336899;
+}
+
+nav ul 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+nav ul li
+{
+  list-style-type: none;
+  text-align: center;
+  padding: 15px;
+}
+
+nav ul li:hover
+{
+  background-color: darkgray;
+}
+
+nav ul li:hover a 
+{
+  color: black;
+}
+
+nav a 
+{
+  color: #eef2f6;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+/* Main Styling */
+
+main {
+  width: 100%;
+  background-color: #b7cedc;
+  grid-area: main;
+}
+
+#mainIndex div
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#mainIndex div a
+{
+  color: black;
+  width: 100%;
+  position: relative;
+}
+
+#mainIndex div a:hover
+  {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+#mainIndex div img 
+{
+  width: 100%;
+}
+
+#mainIndex div p 
+{
+  top: 85%;
+  position: absolute;
+  background-color: darkgray;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 80%;
+  font-weight: bold;
+}
+
+/* Subpage Main Styling */
+
+.subpage
+{
+  padding: 2%;
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subpage ul 
+{
+  padding-left: 2.8%;
+}
+
+.subpage ul li 
+{
+  list-style-type: disc;
+}
+
+.subpage h2 
+{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subpage div h3
+{
+  margin: 20px;
+}
+
+.subpage p 
+{
+  margin: 10px;
+}
+
+#lensImg
+{
+  shape-outside: polygon(0% 0%, 70% 0%, 85% 14%, 94% 16%, 100% 30%, 100% 70%, 93% 85%, 83% 82%, 79% 95%, 65% 97%, 62% 98%, 50% 98%, 40% 100%, 0% 100%);
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#micImg 
+{
+  shape-outside: polygon(0% 0%, 88% 0%, 100% 30%, 100% 61%, 81% 97%, 38% 97%, 25% 59%, 9% 45%);
+  float: right;
+  width: 20%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#vidImg 
+{
+  shape-outside: polygon(39% 0%, 100% 0%, 100% 90%, 42% 93%, 11% 97%, 2% 79%, 25% 73%, 39% 55%);
+  float: right;
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#camImg
+{
+  shape-outside: polygon(0% 0%, 65% 4%, 73% 39%, 95% 47%, 94% 87%, 63% 97%, 25% 87%, 0% 78%);
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer Styling */
+
+footer
+{
+  grid-area: footer;
+}
+
+footer h3
+{
+  font-size: 1.3vw;
+  color: #b7cedc;
+}
+
+/* TABLET SCREEN */
+
+@media screen and (min-width: 1000px){
+
+  /* Body Styling */
+
+  body {
+    grid-template-rows: 80px 270px auto 50px;
+  }
+
+  #indexBody {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px auto 50px;
+    grid-template-areas: 
+      "header header header"
+      "main main main"
+      "footer footer footer";
+  }
+
+  /* Header Styling */
+
+  header h1 
+  {
+    color: #b7cedc;
+    font-size: 3vw;
+  }
+
+  /* Main Styling */
+
+  #mainIndex 
+  {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #mainIndex div
+  {
+    width: 40%;
+    padding: 0;
+  }
+
+  #mainIndex div:nth-of-type(1),
+  #mainIndex div:nth-of-type(3)
+  {
+    padding-right: 20%;
+  }
+
+  #mainIndex div:nth-of-type(1),
+  #mainIndex div:nth-of-type(2)
+  {
+    padding-bottom: 1em;
+  }
+}
+
+/* COMPUTER SCREEN */
+
+@media screen and (min-width: 1500px){
+
+  /* Body Styling */
+
+  body 
+  {
+    grid-template-rows: 100px 50px auto 50px;
+  }
+
+  #indexBody {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas: 
+      "header header header header"
+      "main main main main"
+      "footer footer footer footer";
+  }
+
+  /* Nav Styling */
+
+  nav ul
+  {
+    flex-direction: row;
+  }
+
+  /* Main Styling */
+
+  #mainIndex 
+  {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #mainIndex div
+  {
+    width: 20%;
+  }
+
+  #mainIndex div:nth-of-type(1),
+  #mainIndex div:nth-of-type(2),
+  #mainIndex div:nth-of-type(3)
+  {
+    padding-right: 0%;
+  }
+
+  #mainIndex div:nth-of-type(1),
+  #mainIndex div:nth-of-type(2)
+  {
+    padding-bottom: 0em;
+  }
+
+  #mainIndex div p 
+  {
+    top: 0;
+    position: static;
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    opacity: 100%;
+    font-weight: 400;
+  }
+
+  #mainIndex div img
+  {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0 85%);
+  }
+
+  #mainIndex div:nth-of-type(1) img:hover
+  {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 70% 85%, 50% 100%, 30% 85%, 0 85%);
+  }
+
+  #mainIndex div:nth-of-type(2) img:hover
+  {
+    clip-path: circle(40% at 50% 50%);
+  }
+
+  #mainIndex div:nth-of-type(3) img:hover
+  {
+    clip-path: inset(10% 10% 20% 10% round 10% 10% 10% 10%);
+  }
+
+  #mainIndex div:nth-of-type(4) img:hover
+  {
+    clip-path: polygon(75% 0%, 100% 42.5%, 75% 85%, 0% 85%, 25% 42.5%, 0% 0%);
+  }
+
+  /* Subpage Main Styling */
+
+  .subpage h2 
+  {
+    text-align: unset;
+  }
+
+  #micImg 
+  {
+    width: 15%;
+  }
+
+  #vidImg
+  {
+    width: 30%;
+  }
+}
