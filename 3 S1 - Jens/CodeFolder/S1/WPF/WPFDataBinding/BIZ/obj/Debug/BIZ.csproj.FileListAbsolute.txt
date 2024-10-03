@@ -1,0 +1,9 @@
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\bin\Debug\BIZ.dll
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\bin\Debug\BIZ.pdb
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\bin\Debug\Repository.dll
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\bin\Debug\Repository.pdb
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\obj\Debug\BIZ.csproj.CopyComplete
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\obj\Debug\BIZ.dll
+C:\CodeFolder\S1\WPF\WPFDataBinding\BIZ\obj\Debug\BIZ.pdb

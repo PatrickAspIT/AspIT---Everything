@@ -1,0 +1,6 @@
+C:\CodeFolder\S1\WPF\WPFDataBinding\Repository\bin\Debug\Repository.dll
+C:\CodeFolder\S1\WPF\WPFDataBinding\Repository\bin\Debug\Repository.pdb
+C:\CodeFolder\S1\WPF\WPFDataBinding\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\WPF\WPFDataBinding\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\WPF\WPFDataBinding\Repository\obj\Debug\Repository.dll
+C:\CodeFolder\S1\WPF\WPFDataBinding\Repository\obj\Debug\Repository.pdb
