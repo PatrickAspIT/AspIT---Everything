@@ -1,0 +1,100 @@
+:root {
+  --NavBar-Footer-TextColor: hsl(0, 49%, 8%);
+  --LightTextColor: hsl(0, 0%, 100%);
+  --ContrastLinkColor: hsl(138, 65%, 17%);
+  --BackgroundColorOnHover: hsla(0, 0%, 100%, 0.2);
+  --ColorForInactiveDots: hsl(0, 10%, 78%);
+  --BackgroundColorLightboxOverlay: hsla(0, 12%, 8%, 0.98);
+  --DesktopContentWidth: width: 1300px;
+  --Fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --H1OverlayFonts:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --H1OverlayFonts:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  --H1OverlayFonts:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+* 
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 1000px)
+{
+  /* Patrick - Slideshow Banner Styling */
+
+  #mainImage
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* transition: transform 0s ease-in-out; */
+  }
+
+  .animationBanner
+  {
+    animation: slideFromLeft 3s infinite;
+  }
+
+  @keyframes slideFromLeft
+  {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  #banner
+  {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-top: 13.25rem;
+  }
+
+  #dots
+  {
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .dot
+  {
+    background-color: var(--ColorForInactiveDots);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .current
+  {
+    background-color: hsl(0, 10%, 20%);
+  }
+
+  .bannerArrow
+  {
+    border: solid var(--ColorForInactiveDots);
+    border-width: 0 5px 5px 0;
+    top: 65%;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .right
+  {
+    transform: rotate(-45deg);
+    right: 10px;
+  }
+
+  .left
+  {
+    transform: rotate(135deg);
+    left: 10px;
+  }
+}
