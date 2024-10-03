@@ -1,0 +1,7 @@
+C:\CodeFolder\S1\WPF\Flydekasse 2022 .Net Framework\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\CodeFolder\S1\WPF\Flydekasse 2022 .Net Framework\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\CodeFolder\S1\WPF\Flydekasse 2022 .Net Framework\Repository\bin\Debug\Repository.dll.config
+C:\CodeFolder\S1\WPF\Flydekasse 2022 .Net Framework\Repository\bin\Debug\Repository.dll
+C:\CodeFolder\S1\WPF\Flydekasse 2022 .Net Framework\Repository\bin\Debug\Repository.pdb
+C:\CodeFolder\S1\WPF\Flydekasse 2022 .Net Framework\Repository\obj\Debug\Repository.dll
+C:\CodeFolder\S1\WPF\Flydekasse 2022 .Net Framework\Repository\obj\Debug\Repository.pdb
