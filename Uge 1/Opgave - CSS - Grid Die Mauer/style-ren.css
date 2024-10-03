@@ -1,0 +1,265 @@
+/* Reset of all margins and paddings */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Main styling */
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "linksTop1 linksTop1 linksTop2 linksTop2"
+    "linksTop3 linksTop3 linksTop4 linksTop5"
+    "linksTop6 linksTop6 linksTop7 linksTop7"
+    "article1 article1 article1 article1"
+    "article2 article2 article2 article2"
+    "article3 article3 article3 article3"
+    "article4 article4 article4 article4"
+    "nav nav nav nav"
+    "footer footer footer footer";
+    height: 100vh;
+}
+
+/* Header styling */
+
+header
+{
+    background-color: #CCCCCC;
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-ends;
+}
+
+body header img:first-of-type
+{
+    width: 100%;
+}
+
+body header img:last-of-type
+{
+    width: 50%;
+    
+}
+
+/* General menu styling - applies to both menus (and footer for some properties) */
+
+nav
+{
+    grid-area: nav;
+}
+
+nav ul
+{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+nav ul a, footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover
+{
+    background-color: #CCCCCC;
+}
+
+nav ul li:hover a
+{
+    color: rgba(50, 54, 84, 0.8);
+}
+
+/* Top navigation styling (and some also apply for footer) */
+
+body > li:nth-child(2)
+{
+    grid-area: linksTop1;
+}
+
+body > li:nth-child(3)
+{
+    grid-area: linksTop2;
+}
+
+body > li:nth-child(4)
+{
+    grid-area: linksTop3;
+}
+
+body > li:nth-child(5)
+{
+    grid-area: linksTop4;
+}
+
+body > li:nth-child(6)
+{
+    grid-area: linksTop5;
+}
+
+body > li:nth-child(7)
+{
+    grid-area: linksTop6;
+}
+
+body > li:nth-child(8)
+{
+    grid-area: linksTop7;
+}
+
+body > li, footer
+{
+    height: 40px;
+    background-color: #565952;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+body > li a
+{
+    border-right: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+body > li a::before
+{
+    content: "🞂";
+    padding-right: 0.5rem;
+    color: rgba(50, 54, 84, 0.8);
+}
+
+/* Article Styling */
+
+article
+{
+    margin: 5%;
+}
+
+article:nth-child(10)
+{
+    grid-area: article1;
+}
+
+article:nth-child(11)
+{
+    grid-area: article2;
+}
+
+article:nth-child(12)
+{
+    grid-area: article3;
+}
+
+article:nth-child(13)
+{
+    grid-area: article4;
+}
+
+/* Side navigation styling */
+
+nav.side ul
+{
+    background-color: rgba(50, 54, 84, 0.8);
+}
+
+nav.side ul li a
+{
+    display: block;
+    border-bottom: 1px solid white;
+    margin: 0 1rem;
+}
+
+/* Footer styling */
+
+footer
+{
+    line-height: 40px;
+    grid-area: footer;
+}
+
+h2
+{
+    color: #565952;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #565952;
+}
+
+article img
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+article > p:first-of-type::first-line{
+    font-size: 1.5em; /* Adjust the size as needed for the first 4 words */
+    font-weight: bold;
+}
+
+/* PC Screen */
+@media screen and (min-width: 1000px) {
+    body 
+    {
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-areas: 
+        "header header header header header header header"
+        "linksTop1 linksTop2 linksTop3 linksTop4 linksTop5 linksTop6 linksTop7"
+        "nav article1 article1 article1 article2 article2 article2"
+
+        "nav article3 article3 article3 article4 article4 article4"
+        "footer footer footer footer footer footer footer";
+    }
+
+    body > li
+    {
+        list-style-type: none;
+        border-right: 1px solid white;
+        height: 30px;
+    }
+
+    body > li a
+    {
+        border-right: 0px;
+    }
+
+    body > li > a::before
+    {
+        content: none;
+    }
+
+    header
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    body header img:first-of-type
+    {
+        width: 43%;
+    }
+
+    body header img:last-of-type
+    {
+        width: 25%;       
+    }
+
+    article > p:first-of-type::first-line{
+        font-size: 1em; /* Adjust the size as needed for the first 4 words */
+        font-weight: bold;
+    }
+}
