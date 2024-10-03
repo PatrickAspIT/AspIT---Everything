@@ -1,0 +1,16 @@
+@media screen and (min-width: 1000px) {
+   #Image-Slider-Mobile {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+   }
+
+   #Image-Slider-Mobile img {
+      display: block;
+      width: 20%;
+   }
+
+   #Image-Slider-Mobile .imageSlideHide {
+      display: none;
+   }
+}

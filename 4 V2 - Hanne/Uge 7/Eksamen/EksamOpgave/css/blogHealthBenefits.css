@@ -1,0 +1,34 @@
+
+
+@media screen and (min-width: 1000px) {
+   .Subblog-Main {
+      padding-top: 12.5rem;
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .Subblog-Main img {
+      width: 50%;
+      float: left;
+      margin-right: 1rem;
+   }
+   
+   .Subblog-Main p  {
+      padding-bottom: 1rem;
+   }
+   
+   .Subblog-Main ul {
+      margin-left: 5%;
+   }
+   
+   .Subblog-Main ol li{
+      width: 96%;
+      margin: 0 auto;
+   }
+   
+   .Subblog-About img {
+      padding-right: 1rem;
+   }
+}
+
+

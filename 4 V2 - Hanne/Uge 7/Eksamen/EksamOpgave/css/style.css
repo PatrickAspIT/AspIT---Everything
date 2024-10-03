@@ -1,0 +1,718 @@
+/* * Root variables for repeated use */
+:root {
+  --NavBar-Footer-TextColor: hsl(0, 49%, 8%);
+  --LightTextColor: hsl(0, 0%, 100%);
+  --ContrastLinkColor: hsl(138, 65%, 17%);
+  --BackgroundColorOnHover: hsla(0, 0%, 100%, 0.2);
+  --ColorForInactiveDots: hsl(0, 10%, 78%);
+  --BackgroundColorLightboxOverlay: hsla(0, 12%, 8%, 0.98);
+  --DesktopContentWidth: width: 1300px;
+  --Fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --H1OverlayFonts:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+p, a, h2, h3, h4, h5, h6
+{
+  font-family: var(--Fonts);
+}
+
+h1 {
+  font-family: var(--H1OverlayFonts);
+}
+
+
+
+/* Patrick - Slideshow Banner Styling */
+
+#desktop-images{
+  display: none;
+}
+#banner
+{
+  display: none;
+}
+
+/* Noah: Index styling for Mobile */
+.MobileBannerImage {
+  width: 100vw;
+  height: 100%;
+}
+
+main {
+  padding-top: 13rem;
+}
+
+main article {
+  width: 90%;
+  margin: 0 auto; 
+}
+
+.Main-Article p {
+  padding-bottom: 1.5rem; 
+}
+.Main-Article h2 {
+  padding: 1.5rem 0;
+}
+
+.Main-Article section img {
+  width: 100%;
+} 
+.Index-ArticleLink {
+  color: #0f4820;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1000px)
+{
+  .desktopflex {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+}
+
+.Link-Container {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+.Main-Article section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.Main-Article section h3 {
+  margin-top: 0.5rem;
+  color: var(--NavBar-Footer-TextColor);
+}
+
+@media screen and (min-width: 1000px)
+{
+
+#webshop-main > article  {
+  padding: 2rem 0;
+}
+
+  #webshop-main h1 {
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+  
+}
+
+/* Styling for the Subpage Blog.html by Noah */
+/* Class Names used: Main-Blog, */
+.Main-Blog {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+}
+
+.Main-Blog article section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+  
+}
+.Main-Blog article section p{  
+  color: var(--NavBar-Footer-TextColor);
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1000px)
+{
+  .Main-Blog {
+    align-items: center;
+    margin: 0 15%;
+  }
+
+  .Main-Blog h1 {
+    align-self: flex-start;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+
+  }
+
+  .Main-Blog article {
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+
+  .Main-Blog article section {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
+}
+
+
+
+/* Styling for Contact page by Simon */
+
+#contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact-main > img {
+  width: 100%;
+  height: auto;
+}
+
+#contact-main > section:first-of-type {
+  margin: 1rem;
+}
+
+#contact-main > section > h1 {
+  margin-bottom: 3rem;
+}
+
+#contact-main > section > p {
+  margin-bottom: 1rem;
+}
+
+/* Styling for the Subpage Blog.html Ends here */
+
+/* Styling for the Image Slider for mobile */
+  #Image-Slider-Mobile img {
+    display: none;
+    width: 100%;
+  }
+  #Image-Slider-Mobile .Active-Slider-Image {
+    display: block;
+  }
+
+/* styling for the image slider for mobile ends here */
+
+/* Header css */
+header{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  right: 0;
+  left: 0;
+}
+ 
+ 
+.Logo {
+  width: auto;
+  background-color: white;
+}
+ 
+header>div:first-of-type{
+ 
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+ 
+/* Hamburger menu CSS */
+ 
+nav{
+  background-color:  hsla(0, 51%, 8%, 0.952);
+  width: 100vw;
+}
+#HamburgerClose {
+  display: none;
+ 
+}
+ 
+#HamburgerOpen {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+ 
+#HamburgerMenu{
+display: flex;
+justify-content: right;
+}
+ 
+/* Undermenu */
+ 
+.ArrowImage{
+  height: 20px;
+  position: relative;
+  left: 2rem;
+  transform: rotate(90deg);
+  transition-duration: 600ms;
+}
+ 
+.ArrowBox{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.navigation {
+ display: none;
+ height: 100rem;
+ text-align: center;
+}
+ 
+.navigation li {
+  list-style-type: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+ 
+.navigation a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  font-family: var(--Fonts);
+}
+ 
+.Submenu {
+  display: none;
+}
+ 
+.Submenu li a{
+ font-size: 1.5rem;
+ color: hsl(0, 0%, 83%);
+}
+
+/* Mikael: Footer starts here */
+footer{
+  background-color: var(--NavBar-Footer-TextColor);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+footer p, 
+footer h4{
+  color: var(--LightTextColor);
+  padding-bottom: 10px;
+}
+
+footer h4 {
+  font-size: 1.1rem;
+}
+
+footer p{
+  font-size: 0.9rem;
+}
+
+.FooterBox{
+  display: flex;
+ width: 100%;
+ justify-content:center ;
+ align-items: center;
+}
+
+#FooterBox1{
+  width: 50%;
+  
+  justify-content:center;
+  align-items: center;
+}
+
+#FooterBox1{
+  flex-direction: row;
+
+}
+
+.BoxImageText{
+  display: flex;
+  align-items:center;
+  padding-top: 10px;
+  justify-content: space-evenly;
+}
+
+.PhoneImg{
+  width: 10%;
+}
+
+
+footer img {
+  width: 20%;
+  height: auto;
+}
+
+#FooterBox2{
+  width: 50%;
+}
+
+.FooterInnerBox{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Noah Sub Blog Posts Styling */
+.Subblog header {
+  width: 100vw;
+}
+
+
+/* Mikael: Header styling for desktop */
+@media screen and(min-width: 1000) {
+  .navigation{
+    display: flex;
+    max-height: 50px;
+    justify-content: space-evenly;
+   }
+  
+  
+  
+   header li:hover{
+    cursor: pointer;
+    background-color: var(--BackgroundColorOnHover);
+  }
+  
+  #showsubmenu:hover .Submenu {
+    display: block;
+    
+    
+  }
+  
+  .Submenu li{
+    background-color: var(--NavBar-Footer-TextColor);
+    position: relative;
+    top: 6px;   
+    
+  }
+
+  #HamburgerOpen{
+    display: none;
+  }
+
+
+
+  #FooterBox1{
+    display: flex;
+  }
+
+  #FooterBox2{
+    display: flex;
+  }
+
+  .PhoneImg{
+    width: 15%;
+  }
+
+  footer img {
+    width: 15%;
+    height: auto;
+  }
+
+  
+footer{
+  flex-wrap: nowrap;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.Logo{
+  width: 200px;
+}
+
+.ArrowImage {
+  display: none;
+}
+
+.Subblog-Main h1 {
+  width: 90%;
+  margin: auto auto;
+  padding: 1.5rem 0;
+}
+
+.Subblog-Main img {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.Subblog-Main img {
+  width: 100%;
+}
+.Subblog-Main p {
+  padding-bottom: 1rem;
+}
+.Subblog-Main h2 {
+  padding: 0.5rem 0 1.5rem 0;
+}
+.Subblog-Main ul {
+  margin-left: 10%;
+  padding: 0.5rem 0;
+}
+
+}
+
+
+  
+
+  /* Mikael - Footer styling on desktop */
+
+ 
+
+/* Desktop Styling */
+@media screen and (min-width: 1000px)
+{
+
+  #desktop-images { display: block;}
+
+  .arrow {
+    display: none;
+  }
+
+  /* Patrick - Fixes position fighting with banner */
+  header
+  {
+    z-index: 100;
+  }
+
+  /* Patrick - lightBox styling for desktop */
+  .lightBox
+  {
+    background-color: var(--BackgroundColorLightboxOverlay);
+    position: fixed;
+    width: calc(100% - 10%);
+    height: calc(100vh - 80px);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .lightBox img 
+  {
+    width: auto;
+    height: calc(100vh - 80px);
+  }
+
+  /* Patrick - Slideshow Banner Styling */
+
+  #mainImage
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .animationBanner
+  {
+    animation: slideFromLeft 2.8s infinite;
+  }
+
+  @keyframes slideFromLeft
+  {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  #banner
+  {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-top: 10.6rem;
+  }
+
+  #dots,
+  .bannerArrow 
+  {
+    display: block;
+    position: absolute;
+  }
+
+
+
+  #dots
+  {
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .dot
+  {
+    background-color: var(--ColorForInactiveDots);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .current
+  {
+    background-color: hsl(0, 10%, 20%);
+  }
+
+  .bannerArrow
+  {
+    border: solid var(--ColorForInactiveDots);
+    border-width: 0 5px 5px 0;
+    top: 65%;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .right
+  {
+    transform: rotate(-45deg);
+    right: 10px;
+  }
+
+  .left
+  {
+    transform: rotate(135deg);
+    left: 10px;
+  }
+
+  /* Main Styling */
+
+  main 
+  {
+    padding-top: 0;
+  }
+
+  .MobileBannerImage,
+  #contact-main > img:first-of-type 
+  {
+    display: none;
+  }
+
+
+  .Logo{
+    width: 200px;
+  }
+
+  a > img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  /* Simon - Contact main */
+
+  #contact-main {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #contact-main > img {
+    display: none;
+  }
+
+  #desktop-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #desktop-images > img {
+    width: 20%;
+    height: auto;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Mikael - Footer styling on desktop */
+  #HamburgerOpen{
+    display: none;
+  }
+
+  footer{
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+
+  .FooterBox {
+    padding: 0;
+  }
+
+  #FooterBox1 {
+    padding-right: 0;
+  }
+
+/* New header styling */
+.navigation{
+  display: flex;
+  max-height: 50px;
+  justify-content: space-evenly;
+}
+
+header li:hover{
+  background-color: var(--BackgroundColorOnHover);
+}
+
+#showsubmenu:hover .Submenu {
+  display: block;
+}
+
+.Submenu{
+  background-color: var(--NavBar-Footer-TextColor);
+  position: relative;
+  top: 6px;
+}
+
+.arrow {
+  display: block;
+}
+
+.ArrowImage{
+  display: none;
+}
+
+  /* Mikael - Footer styling on desktop */
+  #HamburgerOpen{
+    display: none;
+  }
+ 
+  footer{
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+ 
+  #FooterBox1{
+    display: flex;
+  }
+ 
+  #FooterBox2{
+    display: flex;
+  }
+ 
+.PhoneImg{
+  width: 20%;
+}
+
+
+
+
+}

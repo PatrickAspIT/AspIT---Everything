@@ -1,0 +1,60 @@
+/* Main Styling */
+
+main 
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#assortedFacts img
+{
+  width: 100%;
+}
+
+#assortedFacts p 
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1000px) 
+{
+  header
+  {
+    top: 0;
+  }  
+
+  main 
+  {
+    padding-top: 11rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #assortedFacts img 
+  {
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+  }
+
+  #Image-Slider-Mobile
+  {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  #Image-Slider-Mobile img
+  {
+    display: block;
+    width: 20%;
+  }
+
+  #Image-Slider-Mobile .imageSlideHide
+  {
+    display: none;
+  }
+
+  
+}

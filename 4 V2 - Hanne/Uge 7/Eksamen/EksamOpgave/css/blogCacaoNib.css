@@ -1,0 +1,21 @@
+@media screen and (min-width: 1000px) {
+   .Subblog-Main img {
+      width: 90%;
+   }
+   .Subblog-Main {
+      padding-top:  12rem;
+      width: 80%;
+      margin: 0 auto;}
+   
+   .Flex-Container {
+      display: flex;
+      flex-direction: row;
+   }
+   
+   .Column-Flex-Container {
+      width: 50%;
+      display: flex; 
+      flex-direction: column;
+   }
+}
+

@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px) {
+   /* Fix this later */
+
+   .arrow img {
+      display: none;
+   }
+   
+   .Main-Blog article {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   }
+   
+   .Main-Blog article section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+@media screen and (min-width: 1001px) {
+   #Image-Slider-Mobile {
+      display: none;
+   }
+}
