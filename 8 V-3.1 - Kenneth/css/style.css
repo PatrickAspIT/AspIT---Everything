@@ -1,0 +1,25 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.column {
+  flex: 1; /* Makes each column take equal space */
+  padding: 10px;
+  border: 1px solid #ccc; /* Adds a border to each column */
+  margin: 5px; /* Adds some space between columns */
+}
+h2 {
+  text-align: center;
+}
+ul {
+  list-style-type: none; /* Removes bullets from list */
+  padding: 0; /* Removes padding */
+}
