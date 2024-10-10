@@ -1,0 +1,7 @@
+
+
+	- Reviews:
+
+	. Opacity on icons
+	. Finish review
+	. Think about javascript later

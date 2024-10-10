@@ -1,0 +1,6 @@
+
+
+1. Mindske teskt størrelse
+2. Fjerne border på top, højre og venstre.
+3. Runde knappen.
+4. Fjerne 'Edit form'

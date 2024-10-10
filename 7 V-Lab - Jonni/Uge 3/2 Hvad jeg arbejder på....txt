@@ -1,0 +1,13 @@
+Bruger ✔ når jeg er færdig med opgaven:
+
+	✔ Lave navigationen og gøre dens position 'fixed'
+		✔ Mangler at lave baggrunden grå når man er under forsiden, kan evt. gøre det med 					javascript måske...
+	✔ Få knapperne til at gå til forskellige steder på den samme side
+	✔  Få evt. galleri knapperne til at udskifte billederne
+		✔ Er nok nød til at bruge javascript her, kan ikke se nogen anden måde, så skal opdele 					billederne...
+	✔ Udskifte kundeudtalelser og ændre cirklerne
+		✔ Skal finde ud af, hvordan jeg løser problemet med <br>
+	✔ Kunne udfylde formen og sende en mail
+		✔ Finde noget andet at bruge end 'Text Editor' som brugeren kan skrive i.
+		✔ Elementor Form skal man betale for...
+	✔ Kunne tjekke kundens sociale medier i footeren med ikonet
