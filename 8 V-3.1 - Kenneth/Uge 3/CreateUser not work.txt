@@ -1,0 +1,165 @@
+// Define variables and set to empty values
+    $userNameErr = $passwordErr = $passwordRepeatErr = $firstNameErr = $lastNameErr = $addressErr = $postCodeErr = $countryErr = $emailErr = $websiteErr = "";
+    $userName = $password = $passwordRepeat = $firstName = $lastName = $address = $postCode = $country = $email = $website = "";
+    $isValid = true; // To check if validation passed
+
+    // Check if username is empty and only contains letters and whitespace
+    if (empty($_POST['newuser-username'])) {
+        $userNameErr = "Fornavn er påkrævet";
+        $isValid = false;
+    } else {
+        $userName = test_input($_POST['newuser-username']);
+        // Check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/", $userName)) {
+            $userNameErr = "Kun bogstaver og mellemrum er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if password is empty and only contains letters and numbers
+    if (empty($_POST['newuser-password'])) {
+        $passwordErr = "Adgangskode er påkrævet";
+        $isValid = false;
+    } else {
+        $password = test_input($_POST['newuser-password']);
+        // Check if password only contains letters and numbers
+        if (!preg_match("/^[a-zA-Z0-9]*$/", $password)) {
+            $passwordErr = "Kun bogstaver og tal er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if password repeat is empty and only contains letters and numbers
+    if (empty($_POST['newuser-passwordrepeat'])) {
+        $passwordRepeatErr = "Gentag adgangskode er påkrævet";
+        $isValid = false;
+    } else {
+        $passwordRepeat = test_input($_POST['newuser-passwordrepeat']);
+        // Check if password repeat only contains letters and numbers
+        if (!preg_match("/^[a-zA-Z0-9]*$/", $passwordRepeat)) {
+            $passwordRepeatErr = "Kun bogstaver og tal er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if password and password repeat match
+    if ($password !== $passwordRepeat) {
+        echo "Adgangskoderne er ikke ens!";
+        $isValid = false;
+    }
+
+    // Check if first name is empty and only contains letters and whitespace
+    if (empty($_POST['newuser-firstname'])) {
+        $firstNameErr = "Fornavn er påkrævet";
+        $isValid = false;
+    } else {
+        $firstName = test_input($_POST['newuser-firstname']);
+        // Check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/", $firstName)) {
+            $firstNameErr = "Kun bogstaver og mellemrum er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if last name is empty and only contains letters and whitespace
+    if (empty($_POST['newuser-lastname'])) {
+        $lastNameErr = "Efternavn er påkrævet";
+        $isValid = false;
+    } else {
+        $lastName = test_input($_POST['newuser-lastname']);
+        // Check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/", $lastName)) {
+            $lastNameErr = "Kun bogstaver og mellemrum er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if address is empty and only contains letters, numbers and whitespace
+    if (empty($_POST['newuser-address'])) {
+        $addressErr = "Adresse er påkrævet";
+        $isValid = false;
+    } else {
+        $address = test_input($_POST['newuser-address']);
+        // Check if address only contains letters, numbers and whitespace
+        if (!preg_match("/^[a-zA-Z0-9 ]*$/", $address)) {
+            $addressErr = "Kun bogstaver, tal og mellemrum er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if post code is empty and only contains numbers
+    if (empty($_POST['newuser-postcode'])) {
+        $postCodeErr = "Postnummer er påkrævet";
+        $isValid = false;
+    } else {
+        $postCode = test_input($_POST['newuser-postcode']);
+        // Check if post code only contains numbers
+        if (!preg_match("/^[0-9]*$/", $postCode)) {
+            $postCodeErr = "Kun tal er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if country is empty and only contains letters and whitespace
+    if (empty($_POST['newuser-country'])) {
+        $countryErr = "Land er påkrævet";
+        $isValid = false;
+    } else {
+        $country = test_input($_POST['newuser-country']);
+        // Check if country only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/", $country)) {
+            $countryErr = "Kun bogstaver og mellemrum er tilladt";
+            $isValid = false;
+        }
+    }
+
+    // Check if email is empty and only contains letters, numbers, @ and .
+    if (empty($_POST['newuser-email'])) {
+        $emailErr = "E-mail er påkrævet";
+        $isValid = false;
+    } else {
+        $email = test_input($_POST['newuser-email']);
+        // Check if email only contains letters, numbers, @ and .
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $emailErr = "Ugyldig e-mail format";
+            $isValid = false;
+        }
+    }
+
+    // Check if website is empty and only contains letters, numbers, @, . and /
+    if (empty($_POST['newuser-website'])) {
+        $websiteErr = "Website er påkrævet";
+        $isValid = false;
+    } else {
+        $website = test_input($_POST['newuser-website']);
+        // Check if website only contains letters, numbers, @, . and /
+        if (!filter_var($website, FILTER_VALIDATE_URL)) {
+            $websiteErr = "Ugyldig URL format";
+            $isValid = false;
+        }
+    }    
+
+    if ($isValid) {
+        // Session
+        $_SESSION["newuser-firstname"] = $firstName;
+
+        // Quality test for postnumber, if the country is Denmark/Danmark
+        // if ($country == "danmark" || $country == "denmark") {
+        //     if (strlen($postCode) != 4) {
+        //         echo "Postnummeret er ikke 4 cifre langt!";
+        //         $isValid = false;
+        //         exit;
+        //     }
+        // }
+
+        // Redirect to the welcome page
+        header("Location: welcome.php");
+        exit;
+    }
+
+    function test_input($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+      }
