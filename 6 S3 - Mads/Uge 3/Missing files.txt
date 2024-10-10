@@ -1,0 +1,2 @@
+Missing files:
+dotnet-maui-workshop - Mandag.zip
